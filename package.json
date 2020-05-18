@@ -1,0 +1,17 @@
+{
+  "name": "@mattshaffer11/mattshaffer11.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "clean-css": "^4.2.3",
+    "fs-extra": "^9.0.0",
+    "uglify-js": "^3.9.3"
+  },
+  "scripts": {
+    "clean": "node ./bin/clean",
+    "build": "npm run clean && node ./bin/build"
+  },
+  "author": "Matt Shaffer",
+  "license": "ISC",
+  "description": "Matt Shaffer's landing page"
+}

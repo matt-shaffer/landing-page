@@ -1,0 +1,1 @@
+!function(){var t=document.querySelector(".email");t.addEventListener("click",function(){t.setAttribute("href","mailto:mattshaffer11@gmail.com")})}();
