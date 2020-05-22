@@ -109,9 +109,22 @@ p {
   color: #ff7496;
 }
 
-/* Desktop */
+/* Mobile landscape */
 
-@media only screen and (min-width: 800px) and (max-width: 1920px) {
+@media only screen and (max-height: 400px) {
+  .me {
+    width: 120px;
+    height: 120px;
+  }
+
+  .card {
+    bottom: 0;
+  }
+}
+
+/* Normal desktops */
+
+@media only screen and (min-width: 992px) and (max-width: 1824px) {
   body {
     background-image:url('assets/ocean.jpg');
     background-attachment: fixed;
@@ -127,7 +140,9 @@ p {
   }
 }
 
-@media only screen and (min-width: 1920px) {
+/* Large desktop */
+
+@media only screen and (min-width: 1824px) {
   .line {
     display: none;
   }
